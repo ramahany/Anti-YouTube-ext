@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anti YouTube</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .toggle-container {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+    .toggle-button {
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    
+    .toggle-button:hover {
+      background-color: #cc0000;
+    }
+    
+    .toggle-button.disabled {
+      background-color: #28a745;
+    }
+    
+    .toggle-button.disabled:hover {
+      background-color: #218838;
+    }
+    
+    .status {
+      text-align: center;
+      font-size: 11px;
+      color: #666;
+      margin-top: 10px;
+    }
+    
+    .description {
+      text-align: center;
+      font-size: 10px;
+      color: #888;
+      margin-top: 15px;
+      line-height: 1.3;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">Anti YouTube</div>
+  
+  <div class="toggle-container">
+    <button id="toggleButton" class="toggle-button">Disable Hiding</button>
+  </div>
+  
+  <div class="status" id="status">Hiding YouTube content</div>
+  
+  <div class="description">
+    Hides suggestions, feed, and distractions to help you focus on what you searched for.
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

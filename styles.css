@@ -1,0 +1,84 @@
+/* Anti YouTube Extension - CSS Styles */
+/* Hide unwanted YouTube content */
+
+/* Base hiding class */
+.anti-yt-hide {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Homepage feed */
+ytd-rich-grid-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Video suggestions sidebar */
+ytd-watch-next-secondary-results-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Related videos below player */
+ytd-compact-video-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Comments section */
+ytd-comments.anti-yt-hide {
+  display: none !important;
+}
+
+/* Shorts shelf */
+ytd-reel-shelf-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Trending shelf */
+ytd-shelf-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Playlist suggestions */
+ytd-playlist-panel-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* End screen suggestions */
+ytd-player-overlay.anti-yt-hide {
+  display: none !important;
+}
+
+/* Channel recommendations */
+ytd-channel-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Movie/show recommendations */
+ytd-movie-renderer.anti-yt-hide,
+ytd-show-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Grid videos on homepage */
+ytd-grid-video-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Compact video renderers in sidebar */
+ytd-compact-video-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Playlist video renderers */
+ytd-playlist-video-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Radio shelf */
+ytd-radio-renderer.anti-yt-hide {
+  display: none !important;
+}
+
+/* Topic shelf */
+ytd-topic-renderer.anti-yt-hide {
+  display: none !important;
+}
